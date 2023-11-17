@@ -1,0 +1,20 @@
+.navbar_top_div {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar_top_inner_div {
+    padding: 20px 0px;
+    display: flex;
+    gap: 40px;
+}
+
+.navbar_top_inner_div a {
+    text-decoration: none;
+    /* color: rgb(70, 70, 70); */
+    color: rgb(203, 203, 203);
+}
+
+.navbar_top_inner_div {
+    font-size: 24px;
+}

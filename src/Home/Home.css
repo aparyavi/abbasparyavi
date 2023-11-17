@@ -1,0 +1,146 @@
+.home_page_top_div {
+    margin: 50px 350px;
+}
+
+.home_page_profile_img_div {
+    width: 310px;
+    height: 310px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.home_page_profile_img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: top -70px right 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    /* Transition opacity and transform */
+    backface-visibility: hidden;
+}
+
+.home_page_profile_img_div.flipped #profile_img {
+    transform: rotateX(180deg);
+}
+
+.home_page_description_div {
+    margin-left: 350px;
+    text-align: left;
+}
+
+.home_page_description_div {
+    font-size: 22px;
+    line-height: 35px;
+}
+
+#profile_detail_div {
+    display: none;
+    position: absolute;
+    text-align: left;
+}
+
+.profile_detail_indiv_div {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.profile_detail_indiv_div a {
+    text-decoration: none;
+}
+
+.profile_detail_indiv_div p {
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 10px 0px;
+    cursor: default;
+    transition: .2s;
+}
+
+.profile_detail_indiv_div p:hover {
+    color: rgb(155, 155, 155);
+}
+
+.profile_detail_indiv_div p::selection {
+    background: rgba(61, 73, 130, 0.61);
+    color: white;
+}
+
+.profile_detail_indiv_cliper_div {
+    width: fit-content;
+}
+
+#clipboard_copied_message_div {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    background-color: rgb(65, 65, 65);
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: rgb(201, 201, 201);
+}
+
+.home_page_description_coding {
+    font-family: Monospace;
+    letter-spacing: 1px;
+    color: rgb(163, 127, 44);
+
+    /* background-color: black;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    padding-left: 800px;
+    z-index: 0; */
+
+    /* font-family: 'Share Tech', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    text-shadow: 8px 8px 10px #0000008c;
+    background-color: #343a40;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), linear-gradient(to right top, #343a40, #2b2c31, #211f22, #151314, #000000); */
+}
+
+.purple_coding_text {
+    color: blueviolet;
+}
+
+.red_coding_text {
+    color: #f22d3d;
+}
+
+.blue_coding_text {
+    color: #2b8dc7;
+}
+
+.home_page_line_and_description_div {
+    display: flex;
+}
+
+.home_page_line_description_diviver {
+    border-right: 1px solid gray;
+}
+
+.circle_line_text_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.circle_line_text_divider {
+    position: relative;
+    left: -10px;
+    background-color: gray;
+    border-radius: 50%;
+    min-width: 20px;
+    height: 20px;
+}

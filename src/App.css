@@ -2,3 +2,8 @@
   background-color: rgb(26, 26, 26);
   font-family: Monospace;
 }
+
+p::selection {
+  background: rgba(61, 73, 130, 0.61);
+  color: rgb(215, 215, 215);
+}

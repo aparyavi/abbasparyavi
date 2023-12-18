@@ -1,4 +1,5 @@
 .navbar_top_div {
+    position: absolute;
     display: flex;
     justify-content: center;
 }
